@@ -260,7 +260,7 @@ void simulate()
         case 5:           /* bneg */
 
             /*** FILL IN ***/
-	  if(((A >> 7)&0x01) == 1){
+	  if(A >> 7){
 	    PC = addr; 
 	  } else {
 	    PC++;
